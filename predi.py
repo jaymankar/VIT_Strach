@@ -14,9 +14,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 def predict_and_show(model, loader, device, num_images=10):
 
     model.eval()
- git push -u origin main
-error: src refspec main does not match any
-error: failed to push some refs to 'https://github.com/jaymankar/VIT_Strach.git'
+
     images, labels = next(iter(loader))
     images = images.to(device)
 
