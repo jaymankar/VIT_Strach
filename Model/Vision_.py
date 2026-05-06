@@ -3,9 +3,9 @@ import torch.nn as nn
 from Config import config
 from Model.Embeddings import Embeddings
 from Model.LayerNorm import LayerNorm
-from Model.MSa import Multi_Head_Attion
+from Model.MSA import Multi_Head_Attion
 from Model.MLP import FeedForward
-from Model.t import Transformer_Encoder
+from Model.Transformer_Encoder_Block import Transformer_Encoder
 
 
 class VisionTranformer(nn.Module):
