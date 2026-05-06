@@ -118,5 +118,5 @@ Or open `Vit_Scratch.ipynb` in Kaggle/Colab for full walkthrough.
 
 ---
 
-*Built by a self-taught 18 year old from Nanded, Maharashtra.*  
+*Built by a self-taught 18 year old .*  
 *No degree. Just curiosity and code.* 🔥
